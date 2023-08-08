@@ -2,18 +2,16 @@ import "./eycndy.css";
 import { Box } from "@mui/material";
 
 export default function Eycndy() {
-  return (
-    <Box
-      sx={{
-        borderRadius: "20px",
-        height: "min-content",
-        p: "24px",
-        gap: "24px",
-        display: "flex",
-        flexDirection: "column",
-        background:
-          "linear-gradient(130deg, rgb(255, 0, 183) 0%, rgb(30, 0, 255) 100%)",
-      }}
-    ></Box>
-  );
+  const boxStyle = {
+    borderRadius: "20px",
+    height: "317px",
+    display: "flex",
+    flexDirection: "column",
+    background: `url("https://images.squarespace-cdn.com/content/v1/641a832cd4167e73e6d2e927/cc465918-f939-4167-b781-fc46ea9e98f4/ezgif-4-bd5efca93b.gif?format=2500w")`,
+    backgroundSize: "cover",
+    backgroundPosition: "center center",
+    backgroundBlendMode: "overlay",
+  };
+
+  return <Box sx={boxStyle}>{}</Box>;
 }

@@ -25,3 +25,16 @@ img.video-instagram {
   color: rgba(255, 255, 255, 0.7);
   margin: 0;
 }
+
+.icon-instagram {
+  fill: white;
+  position: absolute;
+  z-index: 1;
+  right: 24px;
+  bottom: 24px;
+}
+
+.link-to-instagram {
+  text-decoration: none;
+  cursor: pointer;
+}
