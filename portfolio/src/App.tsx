@@ -4,10 +4,11 @@ import Info from "./components/info/info";
 import Spotify from "./components/spotify/spotify";
 import Instagram from "./components/instagram/instagram";
 import Eycndy from "./components/eycndy/eycndy";
+import Vimeo from "./components/vimeo/vimeo";
 
 export default function App() {
   const columnStyle = {
-    height: "100vh",
+    height: "min-content",
     width: "100%",
     gap: "24px",
     display: "flex",
@@ -22,18 +23,19 @@ export default function App() {
           placeContent: "flex-start",
           alignItems: "flex-start",
           flexFlow: "row",
-          height: "min-content", // min-content
+          height: "min-content",
           gap: "24px",
           p: "1.5rem",
         }}
       >
         <Box sx={columnStyle}>
-          <Info></Info>
-          <Spotify></Spotify>
-          <Instagram></Instagram>
+          <Info />
+          <Spotify />
+          <Instagram />
+          <Vimeo />
         </Box>
         <Box sx={columnStyle}>
-          <Eycndy></Eycndy>
+          <Eycndy />
         </Box>
       </Box>
     </Container>

@@ -1,0 +1,19 @@
+.vimeo-link {
+  background-color: rgb(0, 0, 0);
+  height: 309px;
+  border-radius: 18px;
+  position: absolute;
+  flex: 0 0 auto;
+  will-change: transform;
+  right: 4px;
+  left: 4px;
+  bottom: 4px;
+  overflow: hidden;
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+
+.icon-vimeo:hover {
+  fill: rgb(23, 213, 255);
+}
