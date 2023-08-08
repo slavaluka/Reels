@@ -1,0 +1,27 @@
+img.video-instagram {
+  border-radius: 12px;
+  flex: 0 0 auto;
+  height: 190px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  will-change: transform;
+}
+
+.caption-instagram {
+  font-size: 17px;
+  color: white;
+}
+
+.nickname {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  margin: 0;
+}
+
+.full-name {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}

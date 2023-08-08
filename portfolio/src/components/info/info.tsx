@@ -18,8 +18,8 @@ export default function Info() {
       <p className="logo">á</p>
       <p className="name">Sláva</p>
       <p className="bio">
-        I'm a filmmaker based in Kharkiv, UA currently filming reels for
-        clothing brands.{" "}
+        I'm a filmmaker based in Kharkiv, UA currently filming reels and
+        directing fashion movies.{" "}
       </p>
       <Box
         sx={{

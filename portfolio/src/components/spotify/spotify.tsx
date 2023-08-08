@@ -1,6 +1,6 @@
 export default function Spotify() {
   const iframeStyle = {
-    borderRadius: "12px", // Define your styles here
+    borderRadius: "20px",
   };
 
   return (

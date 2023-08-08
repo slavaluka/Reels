@@ -2,6 +2,8 @@ import { Container, Box } from "@mui/material";
 import "./App.css";
 import Info from "./components/info/info";
 import Spotify from "./components/spotify/spotify";
+import Instagram from "./components/instagram/instagram";
+import Eycndy from "./components/eycndy/eycndy";
 
 export default function App() {
   return (
@@ -28,8 +30,19 @@ export default function App() {
         >
           <Info></Info>
           <Spotify></Spotify>
+          <Instagram></Instagram>
         </Box>
-        <Box sx={{ height: "100vh", width: "100%" }}></Box>
+        <Box
+          sx={{
+            height: "100vh",
+            width: "100%",
+            gap: "24px",
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <Eycndy></Eycndy>
+        </Box>
       </Box>
     </Container>
   );
