@@ -11,6 +11,7 @@ export default function Eycndy() {
     backgroundSize: "cover",
     backgroundPosition: "center center",
     backgroundBlendMode: "overlay",
+    userSelect: "none",
   };
 
   return <Box sx={boxStyle}>{}</Box>;
