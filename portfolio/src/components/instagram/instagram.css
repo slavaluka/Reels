@@ -9,19 +9,21 @@ img.video-instagram {
 }
 
 .caption-instagram {
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 500;
   color: white;
 }
 
 .nickname {
   font-size: 16px;
   color: white;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0;
 }
 
 .full-name {
   font-size: 14px;
+  font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
   margin: 0;
 }
