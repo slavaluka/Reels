@@ -9,6 +9,8 @@ export default function Instagram() {
     <a
       href="https://instagram.com/slavalukianchuk"
       className="link-to-instagram"
+      target="_blank"
+      rel="noopener noreferrer"
     >
       <Box
         sx={{

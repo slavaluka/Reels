@@ -16,7 +16,12 @@ export default function Vimeo() {
 
   return (
     <Box sx={boxStyle}>
-      <a href="/" className="vimeo-link">
+      <a
+        href="vimeo.com/slavalukianchuk"
+        className="vimeo-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <svg
           className="icon-vimeo"
           xmlns="http://www.w3.org/2000/svg"
